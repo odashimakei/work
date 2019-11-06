@@ -127,11 +127,11 @@ button{
   justify-content: center;
   &__link{
     position: relative;
-    margin: 20px 20px;
+    margin: 20px 8px;
     z-index: 10;
     display: flex;
     flex-direction: column;
-    max-width: 360px;
+    max-width: 300px;
     border-radius: 4px;
     border:1px solid #fcfcfc;
     background: #fff;
@@ -162,7 +162,7 @@ button{
   &__thumb{
     object-fit: cover;
     background: #fff;
-    max-width: 360px;
+    max-width: 300px;
     height: 260px;
     position: relative;
     top: 0;
