@@ -29,7 +29,7 @@ export default {
 
 <style scoped lang="scss">
 header{
-  padding: 40px 10px 20px;
+  padding: 40px 20px 20px;
   height: 36px;
   display: flex;
   justify-content: space-between;

@@ -84,7 +84,7 @@ export default {
 }
 .year{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 button{
 	background: none;
@@ -122,12 +122,12 @@ button{
 }
 
 .work{
-  padding: 0 10px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   &__link{
     position: relative;
-    margin: 20px auto;
+    margin: 20px 20px;
     z-index: 10;
     display: flex;
     flex-direction: column;

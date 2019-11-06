@@ -31,8 +31,6 @@ export default {
 #app {
   font-family: 'Avenir',  "游ゴシック体", "YuGothic", Arial, sans-serif;
   color: $text-color;
-  max-width: 980px;
-  margin: 0 auto;
 }
 a{
   text-decoration: none;

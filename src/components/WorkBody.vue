@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div v-for="(item2, index2) in data.detail" :key="index2">
+    <div class="wrap" v-for="(item2, index2) in data.detail" :key="index2">
       <h2 v-if="data.detail[index2].head">{{data.detail[index2].head}}</h2>
       <p v-if="data.detail[index2].description">{{data.detail[index2].description}}</p>
       <h3 v-if="data.detail[index2].subhead">{{data.detail[index2].subhead}}</h3>
@@ -12,7 +12,6 @@
         <li v-for="(item, index) in data.detail[index2].lists" :key="index">{{item}}</li>
       </ul>
     </div>
-    <iframe height="500px" width="100%" src="https://www.youtube-nocookie.com/embed/jUOIe7RP_ck?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-v-d5fb039c></iframe>ß
   </section>
 </template>
 
@@ -45,14 +44,12 @@ h3{
 p{
   line-height: 1.5;
 }
-div{
-  // background: #fcfcfc;
-  border-radius: 4px;
-  padding: 12px;
+.wrap{
+  padding: 40px;
 }
 img{
   display: block;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 a{

@@ -36,13 +36,16 @@ export default {
 section{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .hero{
   overflow: hidden;
+  max-width: 1000px;
 }
 img{
   width: 100%;
-  margin-bottom: 60px;
 }
 h1{
   font-size: 24px;
@@ -59,7 +62,11 @@ dt{
 .overview{
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 40px;
   margin-bottom: 40px;
+  flex-wrap: wrap;
+  width: 100%;
   &__wrap{
     margin: 24px 0;
     display: flex;
@@ -69,7 +76,6 @@ dt{
   }
   &__aside{
     font-size: 14px;
-    margin-left: 60px;
     max-width: 130px;
   }
 }

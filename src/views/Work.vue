@@ -1,14 +1,16 @@
 <template>
   <body>
     <WorkHead :data="data[this.$route.params.id]" />
-    <h2>やったこと</h2>
-    <ul>
-      <li v-for="(item, index) in data[this.$route.params.id].done" :key="index">
-        {{ item }}
-      </li>
-    </ul>
-    <WorkBody :data="data[this.$route.params.id]" />
-    <!-- <Related /> -->
+    <section>
+      <h2>やったこと</h2>
+      <ul>
+        <li v-for="(item, index) in data[this.$route.params.id].done" :key="index">
+          {{ item }}
+        </li>
+      </ul>
+      <WorkBody :data="data[this.$route.params.id]" />
+      <!-- <Related /> -->
+    </section>
   </body>
 </template>
 
@@ -37,13 +39,26 @@ export default {
 </script>
 
 <style scoped lang="scss">
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 ul{
   background: #fafafa;
   padding: 24px;
   margin-top: 12px;
+  margin: 20px 40px 0;
+  width: 100%;
 }
 li::before{
   content: "-";
   line-height: 1.6;
+}
+h2{
+  width: 100%;
+  padding: 0 40px;
 }
 </style>

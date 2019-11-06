@@ -19,11 +19,9 @@ export default {
 <style scoped lang="scss">
 h2{
   font-size: 24px;
-  margin: 80px auto 40px;
-  padding: 0 10px;
-  max-width: 760px;
+  margin: 80px 0 40px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   font-family: 'Raleway';
 }
 

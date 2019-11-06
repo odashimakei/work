@@ -1,6 +1,6 @@
 <template>
   <body class="about">
-    <section>
+    <section class="profile">
       <img :src="prof" alt="">
       <h2>
         Odashima Kei
@@ -65,14 +65,19 @@ span{
 }
 p{
   max-width: 700px;
-  margin: 0 auto;
+  margin: 0 20px;
   margin-top: 46px;
   line-height: 1.5;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
 }
 .skill{
   display: flex;
   justify-content: center;
-  margin: 60px 0;
+  margin: 60px 20px;
   section{
     margin: 0 100px;
   }
