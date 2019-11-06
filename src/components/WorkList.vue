@@ -1,12 +1,28 @@
 <template>
   <section>
-    <button @click="toggle()">ALL</button>
-    <button @click="toggle(data[0].type)">{{data[0].type}}</button>
-    <button @click="toggle(data[9].type)">{{data[9].type}}</button>
-
+    <div class="year">
+      <button :class="{current: tag === 'all'}" @click="toggle('all')">ALL</button>
+      <button :class="{current: tag === 2018}" @click="toggle(data[0].type)">{{data[0].type}}</button>
+      <button :class="{current: tag === 2019}" @click="toggle(data[9].type)">{{data[9].type}}</button>
+    </div>
     <ol class="work">
       <li class="work__item" v-for="(item, index) in data" :key="index">
         <router-link class="work__link" :to="'/work/'+item.id" v-if="item.type === tag">
+          <img class="work__thumb" :src="data[item.id].hero" alt="">
+          <div class="work__detail">
+            <span class="work__title">
+              {{data[item.id].title}}
+            </span>
+            <span class="work__date">
+              {{data[item.id].date}}
+            </span>
+            <span :class="[
+              data[item.id].tag === 'ui' ?
+              'work__grade work__grade--ui' : 'work__grade work__grade--sub'
+            ]"></span>
+          </div>
+        </router-link>
+        <router-link class="work__link" :to="'/work/'+item.id" v-else-if="tag === 'all'">
           <img class="work__thumb" :src="data[item.id].hero" alt="">
           <div class="work__detail">
             <span class="work__title">
@@ -39,7 +55,7 @@ export default {
     return{
       data: data,
       flag: true,
-      tag: 2019
+      tag: 'all'
     }
   },
   methods: {
@@ -53,6 +69,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
 @mixin shadow{
   position: absolute;
   top: 0;
@@ -64,6 +81,44 @@ export default {
   height: 100%;
   z-index: -10;
   border-radius: 4px;
+}
+.year{
+  display: flex;
+  justify-content: flex-end;
+}
+button{
+	background: none;
+	border: none;
+	outline: none;
+	appearance: none;
+  cursor: pointer;
+  text-align: center;
+  color: #999;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 10px;
+  position: relative;
+  display: inline-block;
+  transition: 0.5s;
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 0;
+    border-bottom: solid 1px #999;
+    transition: 0.5s;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.current{
+  border-bottom: solid 1px #414F57;
+  &:after{
+    display: none;
+  }
 }
 
 .work{
