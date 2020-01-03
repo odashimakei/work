@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Information Design",
+    "list": [
+      {
+        "text": "情報アーキテクチャ",
+        "rate": 3
+      },
+      {
+        "text": "定量・定性調査",
+        "rate": 2
+      },
+      {
+        "text": "UX設計",
+        "rate": 2
+      },
+      {
+        "text": "ワイヤーフレーム",
+        "rate": 2
+      },
+      {
+        "text": "認知的評価",
+        "rate": 2
+      },
+      {
+        "text": "Usability・Accessibility",
+        "rate": 2
+      },
+      {
+        "text": "Design Guidline",
+        "rate": 2
+      }
+    ]
+  },
+  {
+    "title": "Visual Design",
+    "list": [
+      {
+        "text": "UIデザイン",
+        "rate": 3
+      },
+      {
+        "text": "Infographics",
+        "rate": 3
+      },
+      {
+        "text": "文字・色彩設計",
+        "rate": 2
+      },
+      {
+        "text": "映像・写真",
+        "rate": 2
+      },
+      {
+        "text": "Motion Design",
+        "rate": 2
+      },
+      {
+        "text": "ロゴ",
+        "rate": 2
+      },
+      {
+        "text": "イラスト",
+        "rate": 1
+      }
+    ]
+  },
+  {
+    "title": "Develop",
+    "list": [
+      {
+        "text": "HTML",
+        "rate": 3
+      },
+      {
+        "text": "CSS",
+        "rate": 3
+      },
+      {
+        "text": "JavaScript",
+        "rate": 2
+      },
+      {
+        "text": "Vue",
+        "rate": 2
+      },
+      {
+        "text": "React",
+        "rate": 2
+      },
+      {
+        "text": "TypeScript",
+        "rate": 1
+      },
+      {
+        "text": "Swift",
+        "rate": 1
+      }
+    ]
+  },
+  {
+    "title": "Tools",
+    "list": [
+      {
+        "text": "Sketch",
+        "rate": 3
+      },
+      {
+        "text": "Visual Studio Code",
+        "rate": 3
+      },
+      {
+        "text": "Figma",
+        "rate": 2
+      },
+      {
+        "text": "XD",
+        "rate": 2
+      },
+      {
+        "text": "Illustrator",
+        "rate": 2
+      },
+      {
+        "text": "Photoshop",
+        "rate": 2
+      },
+      {
+        "text": "After Effects",
+        "rate": 2
+      }
+    ]
+  }
+]
