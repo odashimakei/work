@@ -2,8 +2,8 @@
   <section>
     <div class="year">
       <button :class="{current: tag === 'all'}" @click="toggle('all')">ALL</button>
-      <button :class="{current: tag === 2018}" @click="toggle(data[0].type)">{{data[0].type}}</button>
       <button :class="{current: tag === 2019}" @click="toggle(data[9].type)">{{data[9].type}}</button>
+      <button :class="{current: tag === 2018}" @click="toggle(data[0].type)">{{data[0].type}}</button>
     </div>
     <ol class="work">
       <li class="work__item" v-for="(item, index) in data" :key="index">
@@ -125,6 +125,8 @@ button{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1280px;
+  margin: 0 auto;
   &__link{
     position: relative;
     margin: 20px 8px;
