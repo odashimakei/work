@@ -103,7 +103,7 @@ export default {
           display: block;
           border-radius: 5px;
           opacity: .1;
-          background: #000;
+          background: #333;
           width: 190px;
           height: 96px;
           position: absolute;
@@ -116,7 +116,7 @@ export default {
           left: 50%;
           border: 15px solid transparent;
           opacity: .1;
-          border-top: 15px solid #000;
+          border-top: 15px solid #333;
           margin-left: -15px;
         }
       }
@@ -194,7 +194,7 @@ export default {
           position: absolute;
           right: -72px;
           top:0;
-          color: #FFA500;
+          color: #f5b83d;
           letter-spacing: 0.4em;
         }
         &::before{

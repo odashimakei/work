@@ -7,10 +7,10 @@
       </h1>
     </router-link>
     <router-link to="/about" v-if="$route.path !== '/about'">
-      <img class="about about--link" :src="prof" alt="">
+      <p class="profile">Profile<img class="about about--link" :src="prof" alt=""></p>
     </router-link>
     <router-link v-else to="/">
-      Works
+      <p class="works">Works</p>
     </router-link>
   </header>
 </template>
@@ -61,5 +61,35 @@ span{
     filter: grayscale(60%);
   }
 }
-
+.profile{
+  display: flex;
+  align-items: center;
+  img{
+    transition: transform .3s cubic-bezier(.455,.03,.515,.955),box-shadow .3s ease;
+    content: "";
+    margin-left: 12px;
+  }
+  &:hover img{
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.2);
+    transform: scale(1.07);
+  }
+}
+.works{
+  display: flex;
+  align-items: center;
+  &::after{
+    transition: transform .3s cubic-bezier(.455,.03,.515,.955),box-shadow .3s ease;
+    content: "";
+    margin-left: 12px;
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #abbaab, #f0f0f0);
+    transform: rotate(-135deg);
+  }
+  &:hover::after{
+    transform: rotate(-90deg);
+  }
+}
 </style>
