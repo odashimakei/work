@@ -58,6 +58,8 @@ export default {
   max-width: 900px;
   margin: 100px auto 40px;
   position: relative;
+  flex-wrap: wrap;
+  padding: 12px;
 
   img{
     display: block;
@@ -66,14 +68,15 @@ export default {
     border-radius: 50%;
     position: relative;
     z-index: 1;
+    margin-left: 8px;
   }
 
   &::after{
     z-index: 0;
     position: absolute;
     content: "";
-    left: -12px;
-    top: -12px;
+    left: 12px;
+    top: 4px;
     display: block;
     width: 100px;
     height: 100px;
@@ -87,6 +90,9 @@ export default {
     justify-content: space-between;
     font-weight: bold;
     height: 80px;
+    margin-right: auto;
+    margin-left: 20px;
+
     p{
       display: flex;
       justify-content: space-between;
@@ -124,6 +130,7 @@ export default {
     font-size: 14px;
     line-height: 26px;
     text-align: justify;
+    margin-top: 12px;
   }
 }
 
@@ -132,6 +139,7 @@ export default {
   flex-direction: column;
   max-width: 950px;
   margin: 100px auto 40px;
+  padding: 12px;
 
   h2 {
     display: flex;

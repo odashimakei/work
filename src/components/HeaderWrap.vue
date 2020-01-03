@@ -67,7 +67,7 @@ span{
   img{
     transition: transform .3s cubic-bezier(.455,.03,.515,.955),box-shadow .3s ease;
     content: "";
-    margin-left: 12px;
+    margin-left: 8px;
   }
   &:hover img{
     box-shadow: 0 3px 10px 0 rgba(0,0,0,.2);
@@ -80,7 +80,7 @@ span{
   &::after{
     transition: transform .3s cubic-bezier(.455,.03,.515,.955),box-shadow .3s ease;
     content: "";
-    margin-left: 12px;
+    margin-left: 8px;
     display: block;
     width: 36px;
     height: 36px;

@@ -51,6 +51,7 @@ export default {
   max-width: 950px;
   margin: 100px auto 40px;
   align-items: baseline;
+  padding: 12px;
 
   header{
     width: 100%;
