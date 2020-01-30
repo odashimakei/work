@@ -1,16 +1,15 @@
 <template>
   <body>
     <WorkHead :data="data[this.$route.params.id]" />
-    <section>
+    <section v-if="data[this.$route.params.id].done">
       <h2>やったこと</h2>
       <ul>
         <li v-for="(item, index) in data[this.$route.params.id].done" :key="index">
           {{ item }}
         </li>
       </ul>
-      <WorkBody :data="data[this.$route.params.id]" />
-      <!-- <Related /> -->
     </section>
+    <WorkBody :data="data[this.$route.params.id]" />
   </body>
 </template>
 
@@ -18,14 +17,12 @@
 import data from '../data/data.json'
 import WorkHead from '@/components/WorkHead.vue'
 import WorkBody from '@/components/WorkBody.vue'
-// import Related from '@/components/Related.vue'
 
 export default {
   name: 'Work',
   components: {
     WorkHead,
     WorkBody
-    // Related
   },
   props: {
     id: Number

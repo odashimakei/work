@@ -2,8 +2,9 @@
   <section>
     <div class="year">
       <button :class="{current: tag === 'all'}" @click="toggle('all')">ALL</button>
-      <button :class="{current: tag === 2019}" @click="toggle(data[9].type)">{{data[9].type}}</button>
-      <button :class="{current: tag === 2018}" @click="toggle(data[0].type)">{{data[0].type}}</button>
+      <button :class="{current: tag === 2020}" @click="toggle(2020)">2020</button>
+      <button :class="{current: tag === 2019}" @click="toggle(2019)">2019</button>
+      <button :class="{current: tag === 2018}" @click="toggle(2018)">2018</button>
     </div>
     <ol class="work">
       <li class="work__item" v-for="(item, index) in data" :key="index">
@@ -17,7 +18,7 @@
               {{data[item.id].date}}
             </span>
             <span :class="[
-              data[item.id].tag === 'ui' ?
+              data[item.id].tag === 'main' ?
               'work__grade work__grade--ui' : 'work__grade work__grade--sub'
             ]"></span>
           </div>
@@ -32,7 +33,7 @@
               {{data[item.id].date}}
             </span>
             <span :class="[
-              data[item.id].tag === 'ui' ?
+              data[item.id].tag === 'main' ?
               'work__grade work__grade--ui' : 'work__grade work__grade--sub'
             ]"></span>
           </div>
@@ -124,7 +125,7 @@ button{
 .work{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   max-width: 1280px;
   margin: 0 auto;
   &__link{
@@ -189,7 +190,7 @@ button{
       color: #fff;
       background: #96C8DC;
       &::before{
-        content: "UI"
+        content: "Main"
       }
     }
     &--sub{

@@ -1,242 +1,108 @@
 [
   {
     "id": 0,
-    "type": 2018,
-    "hero": "./assets/bb.png",
-    "title": "野球アンナプルナ",
-    "tag": "ui",
-    "description": "野球アンナプルナデザインのWDを担当し、環境構築とモジュールやページ実装、コーディング周りの相談等を行った。アンナプルナでデザインが刷新されることで、統一された体験をユーザーに提供できるようになる。",
-    "role": "Coding",
-    "date": "2019.2.12 - 5.31",
-    "done": [
-      "環境構築",
-      "モジュールコーディング",
-      "ページコーディング",
-      "リファクタリング",
-      "メンバーへのコードレビュー"
-    ],
-    "detail": [
-      {
-        "head": "モジュールコーディング・ページコーディング",
-        "img": "./assets/coding.png",
-        "description": "新しい技術や実装方法をインプットすることで生産性を上げ、多くのコードを書いた。野球コーディングの7割ほど書いた。",
-        "link_url": "https://ghe.corp.yahoo.co.jp/sports/baseball-frontend/graphs/contributors",
-        "link_text": "Contributions"
-      }
-    ]
+    "type": 2020,
+    "hero": "./assets/ol.png",
+    "title": "TOKYO 2020 オリンピック特集",
+    "tag": "main",
+    "description": "オリンピック特集ページのデザイン業務と窓口業務を担当。特集内全体のデザインを取りまとめている。数十億PVを出すWebページのUXから実装までをこなしつつ、各サービス間で体験がバラバラにならないように調整している。",
+    "role": "Information-Design / UI-Design / Coding",
+    "date": "2019.10.02 - 2020"
   },
   {
     "id": 1,
-    "type": 2019,
-    "hero": "./assets/keiba.png",
-    "title": "競馬アンナプルナ",
-    "tag": "ui",
-    "description": "競馬アンナプルナデザインのID・VDを担当し、ペルソナ作成環境構築とモジュールやページ実装、コーディング周りの相談等を行った。アンナプルナでデザインが刷新されることで、統一された体験をユーザーに提供できるようになる。ページ数が両デバイスで100枚近くあり、その全ての情報設計とVisual Designを村本さんと担当した。",
-    "role": "ID, UI",
-    "date": "2019.5.27 - 8.30",
-    "done": [
-      "ペルソナ作成",
-      "定性調査・定量調査・競合調査",
-      "サイトマップ作成",
-      "各ページの両デバイスの差分洗い出し",
-      "ユーザー課題の洗い出し",
-      "ワイヤー作成",
-      "sketchでSP・PCのモック作成",
-      "Visual Design",
-      "仕様書の書き起こし"
-    ],
-    "detail": [
-      {
-        "head": "出馬表の改善　競馬新聞Ver",
-        "description": "ユーザーは出馬表で予想を立てるが、ヒアリングしたところ競馬新聞やJRAなどのサイトが見やすいとの声が多かった。なので、実際の競馬新聞の情報と合わせることで、ユーザーにとって価値の高いページを設計した。「過去の出走情報」や「過去の出走タイム」の着順・タイムなどの情報から、「この馬がどれだけ期待できるか」や「馬の特徴」を考察するための情報を並べている。また、情報を整理することで3ページに並んでいた情報を1ページで完結するように設計した。",
-        "img": "./assets/keiba1.png"
-      },
-      {
-        "subhead": "情報設計",
-        "link_url": "https://cptl.corp.yahoo.co.jp/pages/viewpage.action?pageId=1874879485",
-        "link_text": "ペルソナ"
-      },
-      {
-        "img": "./assets/difference.png"
-      },
-      {
-        "subhead": "Visual Design",
-        "link_url": "https://cptl.corp.yahoo.co.jp/pages/viewpage.action?pageId=1980285918",
-        "link_text": "Abstract Log"
-      },
-      {
-        "link_url": "https://share.goabstract.com/7b0beda1-6751-4de8-8a6b-a7b888fc6f9c",
-        "link_text": "PC Design"
-      },
-      {
-        "link_url": "https://share.goabstract.com/87f2defb-9e79-4c4c-a4a5-4909020009e0",
-        "link_text": "SP Design"
-      }
-    ]
+    "type": 2018,
+    "hero": "./assets/bb.png",
+    "title": "スポナビ 野球ページのリデザイン",
+    "tag": "main",
+    "description": "野球競技のコーディングを担当。デザイナーの環境構築や実装、コーディング周りの相談窓口等を行った。デザインが刷新されることで、統一された体験をユーザーに提供できるようになる。",
+    "role": "Coding",
+    "date": "2018.10.12 - 2019.1.31"
   },
   {
     "id": 2,
     "type": 2019,
-    "hero": "./assets/umami.png",
-    "title": "UMAMI",
-    "tag": "ui",
-    "description": "メディアカンパニーの各サービスが、サイト構造をもったページやモジュールを生成できる入稿ツールを作成している。UMAMIで、各サービスごとでスキーマを開発して入稿や特集を作成できるようになる。",
-    "role": "ID, VD",
-    "date": "2019.8.15 - 9.30",
-    "done": [
-      "IN-N-OUTベースのコードなので、UMAMI用にリファクタリング",
-      "表記文言のブレ修正",
-      "UMAMIのデザインシステム見直し"
-    ]
+    "hero": "./assets/keiba.png",
+    "title": "スポナビ 競馬ページのリデザイン",
+    "tag": "main",
+    "description": "競馬デザインの情報設計とUIデザインを担当。ペルソナ作成や環境構築、実装を行った。デザイン刷新されることで、統一された体験をユーザーに提供できるようになる。ページ数が両デバイスで100枚近くあり、その全ての情報設計とUIデザインを担当した。",
+    "role": "Information-Design / UI-Design",
+    "date": "2019.5.27 - 8.30"
   },
   {
     "id": 3,
     "type": 2019,
     "hero": "./assets/ojt.png",
-    "title": "On-the-Job Training",
-    "tag": "ui",
-    "description": "OJTとして新入社員が10月以降に1人で業務がこなせるように指導する。小田島は佐中さんをサポート。",
-    "role": "Support",
-    "date": "2019.07.01 - 09.30",
-    "done": [
-      "環境構築のサポート",
-      "1on1",
-      "勉強用の資料作成",
-      "研修課題の資料作成",
-      "デザインレビュー",
-      "ツールの使い方やWD・FE教育"
-    ]
+    "title": "On the Job Training",
+    "tag": "main",
+    "description": "新卒デザイナーが1人で業務をこなせるように指導するメンターを担当。デザイン指導やコーディング指導、コーチングなどを実施。",
+    "role": "Trainer",
+    "date": "2019.07.01 - 09.30"
   },
   {
     "id": 4,
     "type": 2019,
-    "hero": "./assets/kinta.png",
-    "title": "スポナビキンタイ",
-    "tag": "ui",
-    "description": "iOS勉強会でアプリデザインとStoryboard上での実装を担当。デザイナーもiOSのフロントを修正できるようになることによって、開発とデザイナーのコミュニケーションコストを下げることができる。「スポナビキンタイ」は、スポナビの勤怠情報一覧・管理できるアプリケーション。",
-    "role": "ID, VD",
-    "date": "2019.4.01 - 9.30",
-    "done": [
-      "X Codeを使ったStoryboard上での実装",
-      "UIデザイン"
-    ]
+    "hero": "./assets/umami.png",
+    "title": "モジュール入稿ツール UMAMI",
+    "tag": "main",
+    "description": "複数の部署（サービス）が、サイト構造をもったページやモジュールを生成できる入稿ツールを作成。UIデザインと実装を担当。",
+    "role": "Information-Design / UI-Design",
+    "date": "2019.8.15 - 9.30"
   },
   {
     "id": 5,
-    "type": 2019,
-    "hero": "./assets/vue.png",
-    "title": "勉強会",
-    "tag": "ui",
-    "description": "デザイナー向けにVueのハンズオンを作成し、勉強会を開催。共通マスタやin-n-outはvueが使われているため、保守運用できる人材を作るため実施した。in-n-outハンズオンは現在作成中。",
-    "role": "Lecturer",
-    "date": "2019.8.20 - 9.30",
-    "done": [
-      "vueハンズオン資料作成",
-      "in-n-outハンズオン資料作成"
-    ],
-    "detail": [
-      {
-        "link_url": "http://kodashim.beta.dragon.miniy.yahoo.co.jp/school/assets/player/KeynoteDHTMLPlayer.html#0",
-        "link_text": "Vueハンズオン資料"
-      }
-    ]
+    "type": 2018,
+    "hero": "./assets/app0.png",
+    "title": "Yahoo! コミュニティ",
+    "tag": "main",
+    "description": "Yahoo! コミュニティは「好きなことについて気の合う仲間と語り合うことができる」を提供するサービスです。Yahoo! JAPANアプリのフォロー機能を使い、テーマに関するコミュニティをユーザーへおすすめすることによって、同じ好きなテーマに関してコミュニケーションすることができます。クローズ済み。",
+    "role": "Information-Design / UI-Design / Coding",
+    "date": "2018.2.20 - 9.30"
   },
   {
     "id": 6,
     "type": 2019,
-    "hero": "./assets/ui0.png",
-    "title": "Weekly Design",
-    "tag": "ui",
-    "description": "ここ1年くらい流行っているらしい。最近のUIデザインツールの実験やアニメーションプロトタイピングを早くする練習。",
-    "role": "UI",
-    "date": "2019.8.20 - 9.30",
-    "done": [
-      "vueハンズオン資料作成",
-      "in-n-outハンズオン資料作成"
-    ],
-    "detail": [
-      {
-        "link_url": "http://kodashim.beta.dragon.miniy.yahoo.co.jp/school/assets/player/KeynoteDHTMLPlayer.html#0",
-        "link_text": "Vueハンズオン資料"
-      }
-    ]
+    "hero": "./assets/kinta.png",
+    "title": "キンタイ管理アプリ",
+    "tag": "main",
+    "description": "アプリデザインとStoryboard上での実装を担当。デザイナーもiOSのフロントを修正できるようになることによって、開発とデザイナーのコミュニケーションコストを下げることができる。「スポナビキンタイ」は、部署内の勤怠情報一覧・管理できるアプリケーション。",
+    "role": "Information-Design / UI-Design",
+    "date": "2019.4.01 - 9.30"
   },
   {
     "id": 7,
-    "type": 2019,
-    "hero": "./assets/app0.png",
-    "title": "Yahoo! コミュニティ",
+    "type": 2018,
+    "hero": "./assets/amaz.png",
+    "title": "Amazon倉庫管理ツール",
     "tag": "ui",
-    "description": "Yahoo! コミュニティは「好きなことについて気の合う仲間と語り合うことができる」を提供するサービスです。Yahoo! JAPANアプリのフォロー機能を使い、テーマに関するコミュニティをユーザーへおすすめすることによって、同じ好きなテーマに関してコミュニケーションすることができます。クローズ済み。",
-    "role": "CORDING / UI-DESIGN",
-    "date": "2019.8.20 - 9.30",
-    "done": [
-      "vueハンズオン資料作成",
-      "in-n-outハンズオン資料作成"
-    ],
-    "detail": [
-      {
-        "head": "モジュールコーディング・ページコーディング",
-        "img": "./assets/coding.png",
-        "description": "モーダルのグラフィックデザインや公式コミュニティのアイコンを作りました。",
-        "link_url": "https://ghe.corp.yahoo.co.jp/sports/baseball-frontend/graphs/contributors",
-        "link_text": "Contributions"
-      },
-      {
-        "img": "./assets/coding.png",
-        "description": "エンジニアへUI実装をお願いする時、アニメーションを作って納品することもある。ボタンを押した時のアニメーションのイメージ共有と気持ちの良いアニメーションの数値を定める。",
-        "link_url": "https://ghe.corp.yahoo.co.jp/sports/baseball-frontend/graphs/contributors",
-        "link_text": "Contributions"
-      }
-    ]
+    "description": "副業先でAmazon倉庫管理ツールのデザインとコーディングを担当。",
+    "role": "UI-Design / Coding",
+    "date": "2018.5.10 - 7.10"
   },
   {
     "id": 8,
-    "type": 2019,
+    "type": 2018,
     "hero": "./assets/des1.png",
     "title": "Design System",
     "tag": "ui",
-    "description": "デザイナーが作るスタイルガイドだけではなくデザイナー、開発者、プロダクトマネージャーなど、チーム全体で共有されている思想やコンポーネントライブラリなどを合わせたサービスの中核部分のようなもので、デザインとコードの両方において一貫性があり、動的で、再利用可能で維持可能である必要がある。",
-    "role": "CORDING / UI-DESIGN",
-    "date": "2019.8.20 - 9.30",
-    "done": [
-      "vueハンズオン資料作成",
-      "in-n-outハンズオン資料作成"
-    ],
-    "detail": [
-      {
-        "head": "モジュールコーディング・ページコーディング",
-        "img": "./assets/coding.png",
-        "description": "ちなみに最初はシステム化はそこまで考えてデザインはしない。一番優先して考えるべきはユーザーがどれだけ使いやすいかを考えてデザインしないといけないため。以下プロセス。",
-        "link_url": "https://ghe.corp.yahoo.co.jp/sports/baseball-frontend/graphs/contributors",
-        "link_text": "Contributions"
-      },
-      {
-        "img": "./assets/coding.png",
-        "description": "ユーザーストーリー/ワイヤー作成と検証/UIパーツ作成/システム化/各ページのブラッシュアップとパーツの共通化/↓の画像はパーツを並べた時の例です。",
-        "link_url": "https://ghe.corp.yahoo.co.jp/sports/baseball-frontend/graphs/contributors",
-        "link_text": "Contributions"
-      }
-    ]
+    "description": "デザイナー、開発者、プロダクトマネージャーなど、チーム全体で共有されている思想やコンポーネントライブラリなどを合わせたサービスの中核部分を作成。デザインとコードの両方において一貫性があり、動的で、再利用可能で維持可能。副業先でデザインシステムを作る。",
+    "role": "UI-Design / Coding",
+    "date": "2018.11.10 - 12.30"
   },
   {
     "id": 9,
-    "type": 2019,
-    "hero": "./assets/custam.png",
-    "title": "カスタムデザイン",
+    "type": 2018,
+    "hero": "./assets/ui0.png",
+    "title": "Weekly Design",
     "tag": "ui",
-    "description": "服のカスタムデザイン",
-    "role": "UI-DESIGN",
-    "date": "2019.8.20 - 9.30"
-  },
-  {
-    "id": 10,
-    "type": 2019,
-    "hero": "./assets/custam.png",
-    "title": "ポートフォリオサイト",
-    "tag": "ui",
-    "description": "服のカスタムデザイン",
-    "role": "UI-DESIGN",
-    "date": "2019.8.20 - 9.30"
+    "description": "ここ数年で流行っているUIデザインの練習。最近のUIデザインツールの実験やアニメーションプロトタイピングを早くする練習。",
+    "role": "UI-Design",
+    "date": "2018.5.10 - 7.20",
+    "detail": [
+      {
+        "link_url": "https://www.instagram.com/odashi_stock/?hl=ja",
+        "link_text": "INSTAGRAM"
+      }
+    ]
   }
 ]
